@@ -1,0 +1,16 @@
+{
+  "_comment": "Document metadata. In production this comes from the source system (SharePoint, Confluence, a DMS), not from a hand-written file. status and acl are what the metadata filters use; trust marks content from outside the bank.",
+  "documents": [
+    {"file": "hr201_annual_leave_policy.md", "doc_id": "HR-201", "title": "Annual Leave and Time Off Policy", "status": "current", "acl": ["all_employees"], "trust": "internal"},
+    {"file": "fin310_travel_expense_policy_2024.md", "doc_id": "FIN-310 (2024)", "title": "Travel and Expense Policy 2024", "status": "superseded", "acl": ["all_employees"], "trust": "internal"},
+    {"file": "fin310_travel_expense_policy_2025.md", "doc_id": "FIN-310 (2025)", "title": "Travel and Expense Policy 2025", "status": "current", "acl": ["all_employees"], "trust": "internal"},
+    {"file": "cmp400_kyc_aml_procedures.md", "doc_id": "CMP-400", "title": "KYC and AML Operating Procedures", "status": "current", "acl": ["all_employees"], "trust": "internal"},
+    {"file": "hr330_executive_compensation_guidelines.md", "doc_id": "HR-330", "title": "Executive Compensation Guidelines", "status": "current", "acl": ["hr_leadership"], "trust": "internal"},
+    {"file": "hr300_compensation_faq.md", "doc_id": "HR-300", "title": "Compensation FAQ for Employees", "status": "current", "acl": ["all_employees"], "trust": "internal"},
+    {"file": "ops210_vendor_payments_faq.md", "doc_id": "OPS-210", "title": "Vendor Payments FAQ", "status": "current", "acl": ["all_employees"], "trust": "external"},
+    {"file": "hr240_remote_work_policy.md", "doc_id": "HR-240", "title": "Remote Work Policy", "status": "current", "acl": ["all_employees"], "trust": "internal"},
+    {"file": "sec100_information_security_policy.md", "doc_id": "SEC-100", "title": "Information Security Policy", "status": "current", "acl": ["all_employees"], "trust": "internal"},
+    {"file": "cmp100_code_of_conduct.md", "doc_id": "CMP-100", "title": "Code of Conduct", "status": "current", "acl": ["all_employees"], "trust": "internal"},
+    {"file": "ops500_fee_schedule_2025.pdf", "doc_id": "OPS-500", "title": "Consumer and Business Fee Schedule 2025", "status": "current", "acl": ["all_employees"], "trust": "internal"}
+  ]
+}

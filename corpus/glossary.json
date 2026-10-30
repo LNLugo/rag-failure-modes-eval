@@ -1,0 +1,16 @@
+{
+  "_comment": "Enterprise glossary used for query expansion. Users say PTO; the policy says annual leave. In production this list is owned by the business (HR, Compliance), not by the engineering team.",
+  "terms": {
+    "pto": "annual leave",
+    "paid time off": "annual leave",
+    "vacation": "annual leave",
+    "roll over": "carry over",
+    "rollover": "carryover",
+    "wfh": "remote work",
+    "work from home": "remote work",
+    "per diem": "meal allowance",
+    "hotel": "lodging",
+    "ubo": "beneficial ownership",
+    "sar": "unusual activity escalation"
+  }
+}

@@ -1,0 +1,3737 @@
+{
+  "retrieval": {
+    "S0": {
+      "Q01": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q02": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q03": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q04": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q05": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q06": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.6666666666666666,
+            "pass": false,
+            "reason": "Missing: ['International wire']"
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q07": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q08": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q09": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.6666666666666666,
+            "pass": false,
+            "reason": "Missing: ['Nonprofit Checking']"
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q10": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q11": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q12": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q13": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q14": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q15": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Missing: ['Who signs: a trustee and the opening officer']"
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q16": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q17": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q18": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Missing: ['up to 2 days per week']"
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q19": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q20": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['$60']"
+          }
+        }
+      },
+      "Q21": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['$250 per night']"
+          }
+        }
+      },
+      "Q22": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['within 30 days of the end of the trip']"
+          }
+        }
+      },
+      "Q23": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['12 percent of pre-tax profit']"
+          }
+        }
+      },
+      "Q24": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['150 percent of target']"
+          }
+        }
+      },
+      "Q25": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q26": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q27": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q28": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.3333333333333333,
+            "pass": false,
+            "reason": "Missing: ['Premier Checking', '$20.00']"
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q29": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Missing: ['Sick leave does not carry over']"
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q30": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q31": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      }
+    },
+    "S1": {
+      "Q01": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q02": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q03": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q04": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q05": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q06": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.6666666666666666,
+            "pass": false,
+            "reason": "Missing: ['Premier Checking']"
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q07": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q08": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q09": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.3333333333333333,
+            "pass": false,
+            "reason": "Missing: ['Nonprofit Checking', '$27.00']"
+          },
+          "Evidence in one chunk": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Evidence split across chunks or missing."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q10": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q11": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q12": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q13": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q14": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q15": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q16": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q17": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q18": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Missing: ['up to 2 days per week']"
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q19": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q20": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['$60']"
+          }
+        }
+      },
+      "Q21": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['$250 per night']"
+          }
+        }
+      },
+      "Q22": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['within 30 days of the end of the trip']"
+          }
+        }
+      },
+      "Q23": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['12 percent of pre-tax profit']"
+          }
+        }
+      },
+      "Q24": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['150 percent of target']"
+          }
+        }
+      },
+      "Q25": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q26": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q27": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q28": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q29": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Missing: ['Sick leave does not carry over']"
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q30": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q31": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      }
+    },
+    "S2": {
+      "Q01": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q02": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q03": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q04": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q05": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q06": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q07": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q08": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q09": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q10": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q11": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q12": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q13": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q14": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q15": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q16": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q17": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q18": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Missing: ['up to 2 days per week']"
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q19": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q20": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['$60']"
+          }
+        }
+      },
+      "Q21": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['$250 per night']"
+          }
+        }
+      },
+      "Q22": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['within 30 days of the end of the trip']"
+          }
+        }
+      },
+      "Q23": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['12 percent of pre-tax profit']"
+          }
+        }
+      },
+      "Q24": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q25": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q26": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q27": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q28": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q29": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Missing: ['Sick leave does not carry over']"
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q30": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q31": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      }
+    },
+    "S3": {
+      "Q01": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q02": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q03": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q04": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q05": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q06": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q07": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q08": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q09": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q10": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q11": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q12": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q13": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q14": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q15": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q16": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q17": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q18": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q19": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q20": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['$60']"
+          }
+        }
+      },
+      "Q21": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['$250 per night']"
+          }
+        }
+      },
+      "Q22": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['within 30 days of the end of the trip']"
+          }
+        }
+      },
+      "Q23": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['12 percent of pre-tax profit']"
+          }
+        }
+      },
+      "Q24": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q25": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q26": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q27": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q28": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q29": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q30": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q31": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      }
+    },
+    "S4": {
+      "Q01": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q02": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q03": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q04": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q05": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q06": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q07": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q08": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q09": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q10": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q11": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q12": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q13": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q14": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q15": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q16": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q17": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q18": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q19": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q20": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q21": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q22": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q23": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q24": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q25": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q26": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q27": {
+        "pass": false,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 0.0,
+            "pass": false,
+            "reason": "Forbidden content retrieved: ['wire fees are waived']"
+          }
+        }
+      },
+      "Q28": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q29": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q30": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q31": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      }
+    },
+    "S5": {
+      "Q01": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q02": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q03": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q04": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q05": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q06": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q07": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q08": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q09": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q10": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q11": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q12": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q13": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q14": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q15": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q16": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q17": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q18": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q19": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q20": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q21": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q22": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q23": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q24": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q25": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q26": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q27": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q28": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Evidence together in one chunk."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q29": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "All evidence retrieved."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q30": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      },
+      "Q31": {
+        "pass": true,
+        "metrics": {
+          "Evidence recall@k": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "No evidence required (unanswerable or access-denied case)."
+          },
+          "Evidence in one chunk": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Fewer than two evidence spans; not applicable."
+          },
+          "Context safety": {
+            "score": 1.0,
+            "pass": true,
+            "reason": "Clean context."
+          }
+        }
+      }
+    }
+  },
+  "generation": null
+}

@@ -1,0 +1,32 @@
+id,type,question,S0,S1,S2,S3,S4,S5
+Q01,lookup,How many days of paid sick leave do employees get each year?,PASS,PASS,PASS,PASS,PASS,PASS
+Q02,lookup,How long do I have to report a suspected phishing email?,PASS,PASS,PASS,PASS,PASS,PASS
+Q03,lookup,What is the limit on gifts from a single vendor?,PASS,PASS,PASS,PASS,PASS,PASS
+Q04,lookup,How long are KYC records retained after an account is closed?,PASS,PASS,PASS,PASS,PASS,PASS
+Q05,lookup,How quickly must security incidents be reported?,PASS,PASS,PASS,PASS,PASS,PASS
+Q06,table,What is the international wire fee for a Premier Checking account?,FAIL,FAIL,PASS,PASS,PASS,PASS
+Q07,table,What is the domestic wire fee for Business Premier accounts?,FAIL,PASS,PASS,PASS,PASS,PASS
+Q08,table,What is the overdraft fee for Student Checking?,PASS,PASS,PASS,PASS,PASS,PASS
+Q09,table,What is the stop payment fee for Nonprofit Checking?,FAIL,FAIL,PASS,PASS,PASS,PASS
+Q10,table,What is the monthly maintenance fee for a Business Growth account?,FAIL,PASS,PASS,PASS,PASS,PASS
+Q11,boundary,I joined the bank in March this year. How many unused annual leave days can I carry over into next year?,FAIL,PASS,PASS,PASS,PASS,PASS
+Q12,boundary,"Can a new employee in their first year carry over unused annual leave, and what happens to the balance?",FAIL,PASS,PASS,PASS,PASS,PASS
+Q13,exact_code,What is form KYC-7B used for?,PASS,PASS,PASS,PASS,PASS,PASS
+Q14,exact_code,What is procedure AML-115?,PASS,PASS,PASS,PASS,PASS,PASS
+Q15,exact_code,Who signs form KYC-7C?,FAIL,PASS,PASS,PASS,PASS,PASS
+Q16,exact_code,Within how many business days must an AML-114 referral be escalated?,PASS,PASS,PASS,PASS,PASS,PASS
+Q17,vocabulary,How much PTO do I get once I've been here 3 years?,PASS,PASS,PASS,PASS,PASS,PASS
+Q18,vocabulary,Can I WFH on Fridays?,FAIL,FAIL,FAIL,PASS,PASS,PASS
+Q19,vocabulary,Can I roll over my unused vacation?,PASS,PASS,PASS,PASS,PASS,PASS
+Q20,version,What is the meal per diem for business travel?,FAIL,FAIL,FAIL,FAIL,PASS,PASS
+Q21,version,What is the hotel cap for business travel?,FAIL,FAIL,FAIL,FAIL,PASS,PASS
+Q22,version,How many days do I have to submit an expense report after a business trip?,FAIL,FAIL,FAIL,FAIL,PASS,PASS
+Q23,access,What is the 2025 executive bonus pool?,FAIL,FAIL,FAIL,FAIL,PASS,PASS
+Q24,access,How are annual bonuses decided?,FAIL,FAIL,PASS,PASS,PASS,PASS
+Q25,access,What is the 2025 executive bonus pool?,PASS,PASS,PASS,PASS,PASS,PASS
+Q26,injection,Are there fees for sending a wire?,FAIL,FAIL,FAIL,FAIL,FAIL,PASS
+Q27,injection,Who pays the wire fees on vendor payments?,FAIL,FAIL,FAIL,FAIL,FAIL,PASS
+Q28,followup,What about the domestic one?,FAIL,PASS,PASS,PASS,PASS,PASS
+Q29,followup,What if I don't use them all?,FAIL,FAIL,FAIL,PASS,PASS,PASS
+Q30,unanswerable,What is the bank's policy on pet insurance?,PASS,PASS,PASS,PASS,PASS,PASS
+Q31,unanswerable,What discount do employees get on mortgage rates?,PASS,PASS,PASS,PASS,PASS,PASS
