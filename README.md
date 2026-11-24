@@ -23,20 +23,39 @@ export ANTHROPIC_API_KEY=...
 python run_lab.py --generation    # naive prompt on S0 vs grounded prompt on S5, judged by an LLM
 ```
 
+## The six stages
+
+The lab builds the same RAG pipeline six times. Each stage keeps every fix from the stage before it and turns on exactly one more, so when a question starts passing, the scorecard can name the fix that made the difference.
+
+| Stage | Fix turned on | Layer | Code |
+|---|---|---|---|
+| **S0** Naive baseline | None: raw text, 500 character chunks, dense search only | (baseline) | `ingest.naive_chunks` |
+| **S1** Structure-aware parsing and chunking | Table rows keep their column headers; chunks follow headings; each chunk is labeled with its document and section | Ingestion | `ingest.structured_chunks` |
+| **S2** Hybrid search | BM25 keyword search fused with dense search (reciprocal rank fusion) | Retrieval | `retrievers.HybridRetriever` |
+| **S3** Query rewriting | Glossary expansion (PTO to annual leave); follow-up questions made standalone | Query | `guards.expand_with_glossary`, `guards.condense_followup` |
+| **S4** Metadata filters | Current versions only; access control applied inside retrieval | Governance | `guards.allowed` |
+| **S5** Ingestion screening | Chunks carrying instructions aimed at the model are quarantined | Ingestion security | `guards.screen_for_injection` |
+
+Each stage is a set of switches in `lab/pipeline.py` (S1 is `structured=True`, S2 adds `hybrid=True`, and so on).
+
+**What "fixed at" means.** A break is fixed at the first stage where its questions pass for the right reason. The scorecard can only see when a question first passes, not why, so check the reason with `python run_lab.py --show <id>`. Two questions pass early by ranking luck: Q24 at S2 (its real fix is the S4 access filter) and Q28 at S1 (its real fix is the S3 rewrite). The table below lists the stage that actually fixes each break.
+
 ## The planted breaks and the stage that fixes each one
 
-| Break | Where it starts | Questions | Fixed in | How |
+| Break | Where it starts | Questions | Fixed at | How |
 |---|---|---|---|---|
-| PDF table flattened, values cut off from their column headers | Parsing | Q06 to Q10 | S1 | pdfplumber table extraction, one chunk per row with headers repeated |
-| Rule and its exception split by a chunk boundary | Chunking | Q11, Q12 | S1 | Chunk along headings, never mid-section |
-| Ten near-identical table rows; dense search picks the wrong one | Retrieval | Q06, Q09 | S2 | Hybrid BM25 + dense with reciprocal rank fusion |
-| Form codes (KYC-7B vs KYC-7C) blurred by embeddings | Retrieval | Q13 to Q16 | S1/S2 | Section-per-form chunks, then BM25 for exact tokens |
-| User says PTO and WFH, policy says annual leave and remote work | Query | Q17 to Q19 | S3 | Glossary expansion from a business-owned glossary |
-| Follow-up question has no subject ("What about the domestic one?") | Query | Q28, Q29 | S3 | Make the follow-up standalone using the conversation history |
-| 2024 and 2025 versions of the travel policy both indexed | Corpus | Q20 to Q22 | S4 | Metadata filter: current versions only |
-| Restricted executive compensation doc reachable by any employee | Access control | Q23 to Q25 | S4 | Access filter inside retrieval (pre-filter, not post-filter) |
-| Vendor FAQ contains "ignore all previous instructions..." | Ingestion | Q26, Q27 | S5 | Screen chunks at ingestion; quarantine instructions aimed at the model |
-| Question the corpus cannot answer | Generation | Q30, Q31 | `--generation` | Grounded prompt with an explicit "I can't find this" path |
+| PDF table flattened, values cut off from their column headers | Parsing | Q06 to Q10 | S1 Structure-aware chunking | pdfplumber table extraction, one chunk per row with headers repeated |
+| Rule and its exception split by a chunk boundary | Chunking | Q11, Q12 | S1 Structure-aware chunking | Chunk along headings, never mid-section |
+| Ten near-identical table rows; dense search picks the wrong one | Retrieval | Q06, Q09 | S2 Hybrid search | Hybrid BM25 + dense with reciprocal rank fusion |
+| Form codes (KYC-7B vs KYC-7C) blurred by embeddings | Retrieval | Q13 to Q16 | S1 then S2 | S1 gives each form its own chunk; S2's BM25 matches the exact code |
+| User says PTO and WFH, policy says annual leave and remote work | Query | Q17 to Q19 | S3 Query rewriting | Glossary expansion from a business-owned glossary |
+| Follow-up question has no subject ("What about the domestic one?") | Query | Q28, Q29 | S3 Query rewriting | Make the follow-up standalone using the conversation history |
+| 2024 and 2025 versions of the travel policy both indexed | Corpus | Q20 to Q22 | S4 Metadata filters | Metadata filter: current versions only |
+| Restricted executive compensation doc reachable by any employee | Access control | Q23 to Q25 | S4 Metadata filters | Access filter inside retrieval (pre-filter, not post-filter) |
+| Vendor FAQ contains "ignore all previous instructions..." | Ingestion | Q26, Q27 | S5 Ingestion screening | Screen chunks at ingestion; quarantine instructions aimed at the model |
+| Question the corpus cannot answer | Generation | Q30, Q31 | Generation half (`--generation`) | Grounded prompt with an explicit "I can't find this" path |
+
+Q06 to Q10 need S1 first: without header-labeled rows, the right answer isn't in any chunk. Q06 and Q09 then also need S2, because ten nearly identical rows are hard for dense search to tell apart.
 
 Result on the reference run: **S0 14/31, S1 20/31, S2 23/31, S3 25/31, S4 29/31, S5 31/31.**
 

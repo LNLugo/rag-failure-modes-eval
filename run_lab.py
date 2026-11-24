@@ -122,10 +122,13 @@ def write_reports(all_results: dict, golden: list[dict], gen_results: dict | Non
         prev = r
     lines += ["", "Unanswerable questions have no evidence to retrieve, so retrieval metrics cannot fail them. "
               "They are tested in the generation half (`--generation`), where the model must say it cannot find the answer.",
-              "", "## What each fix changed", ""]
+              "", "## What each fix changed", "",
+              "Each stage keeps every earlier fix and turns on one more. \"First passing\" lists questions that failed at the "
+              "previous stage and pass at this one. That shows when a question started passing, not why: confirm the reason "
+              "with `python run_lab.py --show <id>` (for example, Q28 first passes at S1 by ranking luck; its real fix is S3).", ""]
     for st, fixed, broke in changes:
         lines.append(f"**{st.key} {st.name}**")
-        lines.append(f"- Fixed: {', '.join(f'{i} ({by_id[i]['type']})' for i in fixed) or 'none'}")
+        lines.append(f"- First passing: {', '.join(f'{i} ({by_id[i]['type']})' for i in fixed) or 'none'}")
         if broke:
             lines.append(f"- Regressed: {', '.join(f'{i} ({by_id[i]['type']})' for i in broke)}  <- a fix that breaks something else; check it")
         lines.append("")
