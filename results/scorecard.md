@@ -15,20 +15,22 @@ Unanswerable questions have no evidence to retrieve, so retrieval metrics cannot
 
 ## What each fix changed
 
+Each stage keeps every earlier fix and turns on one more. "First passing" lists questions that failed at the previous stage and pass at this one. That shows when a question started passing, not why: confirm the reason with `python run_lab.py --show <id>` (for example, Q28 first passes at S1 by ranking luck; its real fix is S3).
+
 **S1 Structure-aware parsing and chunking**
-- Fixed: Q07 (table), Q10 (table), Q11 (boundary), Q12 (boundary), Q15 (exact_code), Q28 (followup)
+- First passing: Q07 (table), Q10 (table), Q11 (boundary), Q12 (boundary), Q15 (exact_code), Q28 (followup)
 
 **S2 Hybrid search**
-- Fixed: Q06 (table), Q09 (table), Q24 (access)
+- First passing: Q06 (table), Q09 (table), Q24 (access)
 
 **S3 Query rewriting**
-- Fixed: Q18 (vocabulary), Q29 (followup)
+- First passing: Q18 (vocabulary), Q29 (followup)
 
 **S4 Metadata filters**
-- Fixed: Q20 (version), Q21 (version), Q22 (version), Q23 (access)
+- First passing: Q20 (version), Q21 (version), Q22 (version), Q23 (access)
 
 **S5 Ingestion screening**
-- Fixed: Q26 (injection), Q27 (injection)
+- First passing: Q26 (injection), Q27 (injection)
 
 ## Still failing at the last stage run
 
